@@ -238,13 +238,21 @@
 			<div class="jumbotron">
 				<h2> Check the available resources on the booking day !</h2> <br>
 				
-				<form action="check.php" method="POST" >
+				<form action="php/check.php" method="POST" >
                                        
-                                        <input name="t_date"  class="form-control" type="Date" required="" placeholder="Enter the Date(YYYY-MM-DD):">
-                                        </input> <br>
-                                         <input name="t_time" class="form-control" type="Time" required="" placeholder="Enter the Time(HH:MM:SS):">
-                                        </input><br>
-                                        <button class="btn btn-lg btn-primary btn-block" type="submit"> Check !</button>
+                                        <label for="Date"> Date to be reserved: </label>
+                                        <input name="t_date"  class="form-control" type="Date" required="" placeholder="Enter the Date(YYYY-MM-DD):"> </input> <br>
+                                        <label for="Time"> Time to be reserved : </label>
+                                      
+                                        <input name="start_time" class="form-control" type="Time" required="" placeholder="End the Time(HH:MM:SS):"> </input><br>
+                                       
+                                        <input name="end_time" class="form-control" type="Time" required="" placeholder="Start Time(HH:MM:SS):"> </input><br>
+                                       
+                                        <label for="Function"> Function to be arranged: </label>
+                                        <label class="radio-inline"><input type="radio" name="options" value="Birthday"> Birthday</input></label>
+                                        <label class="radio-inline"><input type="radio" name="options" value="Anniversary"> Anniversary </input></label>
+                                        <label class="radio-inline"><input type="radio" name="options" value="Conference"> Conference</input></label>
+                                        <button class="btn btn-lg btn-primary btn-block" type="submit" name="check"> Check !</button>
                                         
 					
 				</form> 	
@@ -264,7 +272,7 @@
                 <!-- Form Area -->
                 <div class="contact-form">
                     <!-- Form -->
-                    <form id="contact-us" method="post" action="">
+                    <form  method="POST" action="php/reserve.php">
                         <!-- Left Inputs -->
 
                         <div class="container">
@@ -398,7 +406,7 @@
 
     <footer class="sub_footer">
         <section class="limit">
-            <div><p>&copy; Restaurant 2014</p></div>
+            <div><p>copy right GDR 2015</p></div>
             <div><p>BACK TO <a href="#top">TOP</a></p></div>
             <div><p>BUILT WITH CARE BY <a href="#" target="_blank">US</a></p></div>
         </section>
