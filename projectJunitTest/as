@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:1234/" />
+<title>as</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">as</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/WeCelebrate/WeCelebrate1/web/#reservation</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=WELCOME</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=RESERVATION</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=check</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=t_date</td>
+	<td>2015-12-25</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=end_time</td>
+	<td>23:00:00</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=check</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=table_type</td>
+	<td>label=LKR:600.00</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=table_count</td>
+	<td>label=8</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=button_reserve</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

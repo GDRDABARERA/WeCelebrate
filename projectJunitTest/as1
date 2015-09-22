@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:1234/" />
+<title>as1</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">as1</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/WeCelebrate/WeCelebrate1/web/birthdayCustomize.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//img[@alt='arange-table']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=downloadLnk</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-warning</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[2]/a/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=downloadLnk</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-warning</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[3]/a/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-warning</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=first_name</td>
+	<td>depa</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=phone</td>
+	<td>1234567890</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=last_name</td>
+	<td>masa</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=nic</td>
+	<td>123416789V</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=town</td>
+	<td>mara</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=email</td>
+	<td>asdf@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=datepicker</td>
+	<td>11/12/2107</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=subject</td>
+	<td>jhxjsch</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=reserve_time_from</td>
+	<td>12:11:11</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=reserve_time_to</td>
+	<td>18:00:00</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=cost</td>
+	<td>1234.00</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=reserve</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submit</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
