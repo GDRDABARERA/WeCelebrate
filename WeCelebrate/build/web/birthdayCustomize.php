@@ -79,7 +79,7 @@
 
         <hr>
 
-        <div class="row">
+        <!--div class="row">
             <div class="col-sm-8">
                 <h2>Chose your preferences</h2><br><br>
                 
@@ -88,7 +88,7 @@
                                   <h2> <label for="firstname">Table Type: </label>   
                                <!--  <input type="text" class="form-control" id="inputType" value="//"> -->
                                 <!-- <input type=button onClick= "location.href = 'tableview.html';"  value="Choose">-->
-                                  <select name="table_type">
+                                  <!--select name="table_type">
                                          <option value="t1" style="background-image:url(images/Birthday/t1.jpg);"> LKR:500.00</option>
                                          <option value="t2" style="background-image:url(images/Birthday/t1.jpeg);"> LKR:200.00</option>
                                          <option value="t3" style="background-image:url(images/Birthday/t1.jpg);"> LKR:600.00</option>
@@ -116,7 +116,7 @@
                               
                               
                               
-                              </div>
+                              <!--/div>
                               <div class="form-group">
                                   <h2>  <label for="firstname">No. of Tables: </label>  
                                  <select name="table_count">
@@ -133,7 +133,7 @@
                               </div>
                               <div class="form-group">
                                   <h2>  <label for="firstname">Chair Type: </label>  
-                                  <!--<input type=button onClick= window.open("chairview.html","Ratting","width=550,height=170,left=150,top=200,toolbar=0,status=0"); value="Choose"> -->
+                                  <!--<input type=button onClick= window.open("chairview.html","Ratting","width=550,height=170,left=150,top=200,toolbar=0,status=0"); value="Choose"> >
                                         <select name="chair_type">
                                          <option value="c1" style="background-image:url(images/Birthday/t1.jpg);"> LKR:500.00</option>
                                          <option value="c2" style="background-image:url(images/Birthday/t1.jpeg);"> LKR:200.00</option>
@@ -191,20 +191,24 @@
                 </address>
             </div>
         </div>
-        <!-- /.row -->
+        </row -->
 
         <hr>
 
         <div class="row">
-            <div id="arange-table" class="col-sm-4">
-                <a href="arangeTable.php"><img class="img-circle img-responsive img-center" src="images/Birthday/table/t11.jpg" alt="arange-table"  > 
-</a>
-              
+
+	    <div id="select-item" class="col-sm-3">
+                <a href="Birthday.html"><img class="img-circle img-responsive img-center" src="images/Birthday/a1copy.jpg" alt="arange-table"  >
+		</a> 
             </div>
-            <div class="col-sm-4">
+            <div id="arange-table" class="col-sm-3">
+                <a href="arangeTable.php"><img class="img-circle img-responsive img-center" src="images/Birthday/table/t11.jpg" alt="arange-table"  > 
+		</a> 
+            </div>
+            <div class="col-sm-3">
                 <a href="arangHall.php"> <img class="img-circle img-responsive img-center" src="images/Birthday/table/h11.jpg" alt=""></a>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
                 <a href="fullview.php"><img class="img-circle img-responsive img-center" src="images/Birthday/table/v11.jpg" alt=""></a>
                  </div>
         </div>

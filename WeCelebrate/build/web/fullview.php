@@ -97,7 +97,7 @@
         <div class="row">
             <div  class="col-sm-4">
                 <h3>The designed table<br> arrangement.</h3><br><br>
-                <img class="img-thumbnail img-responsive img-center" src="images/downloads/t2.jpg" alt="arange-table"  > 
+                <img class="img-thumbnail img-responsive img-center" src="images/downloads/t1.jpeg" alt="arange-table"  > 
 
               
             </div>
@@ -144,7 +144,7 @@
                     
                 </h5> <br><br>
                 
-                 <input action="action" type="button" class="btn btn-warning" value="Pay and Reserve" onclick="location.href = 'index.php#reservation';" />
+                 <input action="action" type="button" class="btn btn-warning" value="Pay and Reserve" onclick="location.href = 'index.php#checkout';" />
                      
 
               

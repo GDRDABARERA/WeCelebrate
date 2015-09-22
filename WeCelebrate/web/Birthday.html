@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Birthday</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"  href="css/style.css">
+    <script src="js/three.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/script1.js"></script>
+   
+  </head>
+  <body background="bckImage/bday1.jpg">
+  
+    <div class="container">
+        <div class="jumbotron" style="background-color: rgba(13,75,225,0.6);">
+            <h1>Birthday Item Select</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-6">
+                    <form>
+                        <input type="hidden" name="src"  value=""  id="two"/><br>  
+                    </form>
+                     <h2>Chairs</h2>
+                    <div class="row">
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#"  class="thumbnail" >
+                        <image src="images/images/chair.jpeg" onclick="return change_Image(this.name)" name= "one" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                        <image src="images/images/chair2.jpeg" onclick="return change_Image(this.name)" name="two" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>
+                     <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail" >
+                         <image src="images/images/chair3.jpg" onclick="return change_Image(this.name)" name="three" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                         <image src="images/chair2.jpeg" onclick="return change_Image(this.name)" name="four" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>    
+                        
+                    
+                </div>
+                    <h2>Tables</h2>
+                    <div class="row">
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" onclick="return change_Image(this)"class="thumbnail" >
+                        <image src="images/images/Tables.jpeg" name= "one" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" onclick="return change_Image(this)"class="thumbnail">
+                        <image src="images/images/Table2.jpeg" name= "one" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>
+                     <div class="col-xs-6 col-md-3">
+                        <a href="#" onclick="return change_Image(this)"class="thumbnail" >
+                        <image src="images/images/Table3.jpeg" name= "one" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" onclick="return change_Image(this)"class="thumbnail">
+                        <image src="images/images/Table4.jpeg" name= "one" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>    
+                        
+                    
+                </div>
+                    <h2>Flower deco</h2>
+                    <div class="row">
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" onclick="return change_Image(this)"class="thumbnail" >
+                        <image src="images/images/flower.jpeg" name= "one" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" onclick="return change_Image(this)"class="thumbnail">
+                        <image src="images/images/flower1.jpeg" name= "one" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>
+                     <div class="col-xs-6 col-md-3">
+                        <a href="#" onclick="return change_Image(this)"class="thumbnail" >
+                        <image src="images/images/flower2.jpeg" name= "one" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" onclick="return change_Image(this)"class="thumbnail">
+                        <image src="images/images/flower3.jpeg" name= "one" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>    
+                        
+                    
+                </div>
+                    <h2>other arrangements</h2>
+                    <div class="row">
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" onclick="return change_Image(this)"class="thumbnail" >
+                        <image src="images/chair.jpeg" name= "one" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" onclick="return change_Image(this)"class="thumbnail">
+                        <image src="images/chair2.jpeg" name= "one" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>
+                     <div class="col-xs-6 col-md-3">
+                        <a href="#" onclick="return change_Image(this)"class="thumbnail" >
+                        <image src="images/chair.jpeg" name= "one" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" onclick="return change_Image(this)"class="thumbnail">
+                        <image src="images/chair2.jpeg" name= "one" style="width:100px;height:100px;">
+                        <div class="caption">price:1000/=</div></a>
+                    </div>    
+                        
+                    
+                </div>
+                </div>
+                <div class="col-xs-6">
+                    
+                        <div class="row">
+                            <div id="box1" class="col-xs-6 col-md-3 thumbnail" ></div>
+                        </div>
+                        <div class="row">
+                            <form name="Add" action="add">
+                                <input type="submit" value="add" name="Add" id="btn1"/>
+                            </form>
+                        </div>
+                    
+                       
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

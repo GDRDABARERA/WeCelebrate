@@ -45,10 +45,10 @@
                 <ul class="nav navbar-nav main-nav  clear navbar-right ">
                     <li><a class="active color_animation" href="#top">WELCOME</a></li>
                     <li><a class="color_animation" href="#story">ABOUT</a></li>
-                    <li><a class="color_animation" href="#pricing">PRICING</a></li>
-                    <li><a class="color_animation" href="#beer">BEER</a></li>
+                   <li><a class="color_animation" href="#checkout">CHECK-OUT</a></li>
+                   <!-- <li><a class="color_animation" href="#beer">BEER</a></li>
                     <li><a class="color_animation" href="#bread">BREAD</a></li>
-                    <li><a class="color_animation" href="#featured">FEATURED</a></li>
+                    <li><a class="color_animation" href="#featured">FEATURED</a></li> -->
                     <li><a class="color_animation" href="#reservation">RESERVATION</a></li>
                     <li><a class="color_animation" href="#contact">CONTACT</a></li>
                 </ul>
@@ -91,7 +91,7 @@
     </section>
 
 
-    <section id ="pricing" class="background_content">
+<!--    <section id ="pricing" class="background_content">
         <h1><span>Affordable</span> pricing</h1>
     </section>
 
@@ -108,7 +108,7 @@
                             <li class="filter" data-filter="desert">Desert</li>
                             <li class="filter" data-filter="dinner">Dinner</li>
                         </ul><!-- @end #filter-list -->    
-                        <ul id="portfolio">
+                   <!--     <ul id="portfolio">
                             <li class="item breakfast"><img src="images/food_icon01.jpg" alt="Food" >
                                 <h2 class="white">$20</h2>
                             </li>
@@ -135,8 +135,8 @@
                                 <h2 class="white">$38</h2>
                             </li>
                         </ul><!-- @end #portfolio -->
-                    </div><!-- @end #w -->
-                </div>
+                 <!--   </div><!-- @end #w -->
+             <!--   </div>
             </div>
         </div>  
     </section>
@@ -146,9 +146,7 @@
         <h1>Great <span>Place</span> to enjoy</h1>
     </section>
 
-
-    <section class="description_content">
-        <div class="limit">
+<!--        <div class="limit">
             <div class="picture_content margin-right">
                 <ul class="image_box_beer">
                     <li></li>
@@ -185,7 +183,7 @@
     </section>
 
 
-    <section id="featured" class="background_content">
+  <!--  <section id="featured" class="background_content">
         <h1>Our Featured Dishes <span>Menu</span></h1>
     </section>
 
@@ -200,7 +198,7 @@
             <div class="picture_content margin-left">
                 <ul class="image_box_story2">
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
+                        <!-- Indicators 
                         <ol class="carousel-indicators">
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -208,7 +206,7 @@
                         </ol>
 
                         <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
+                 <!--       <div class="carousel-inner">
                             <div class="item active">
                                 <img src="images/slider1.jpg"  alt="...">
                                 <div class="carousel-caption">
@@ -232,7 +230,7 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </section>  -->
 
 
     <section id="reservation" class="background_content">
@@ -267,11 +265,13 @@
 		</div> 
     </section>
 
-
+     <section id="checkout" class="background_content">
+        <h1>CHECK-OUT and PAY On-line</h1>
+    </section>
 
     <section class="description_content">
 
-    	 <h2><b> ....CHECK-OUT and PAY On-line....</b> </h2>
+    	<!-- <h2><b> ....CHECK-OUT and PAY On-line....</b> </h2> -->
         <div class="limit">
             <div class="inner contact">
 
